@@ -16,3 +16,10 @@ let employee = {
 employee.department = "Marketing"; // Update department
 employee.position = "Manager"; // Add new property
 console.log(employee); // Log updated object
+let customers = [
+    { name: 'Adrian', email: 'adrianfern34@gmail.com', purchaseAmount: 150 },
+    { name: 'Charlie', email: 'charlie455@gmail.com', purchaseAmount: 250 },
+    { name: 'Jone', email: 'jonesjones@gmail.com', purchaseAmount: 157 }
+]; 
+customers.push({ name: 'David', email: 'davidwownder@yahoo.com', purchaseAmount: 188 });
+console.log(customers);
