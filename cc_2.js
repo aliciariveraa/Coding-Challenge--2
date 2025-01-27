@@ -23,3 +23,12 @@ let customers = [
 ]; 
 customers.push({ name: 'David', email: 'davidwownder@yahoo.com', purchaseAmount: 188 });
 console.log(customers);
+let order = {
+    orderId: 14345,
+    customerName: 'Sam',
+    amount: 230,
+    calculateTax: function() {
+        return this.amount * 0.1;
+};
+console.log(order);
+console.log("Tax amount: $" + order.calculateTax());
