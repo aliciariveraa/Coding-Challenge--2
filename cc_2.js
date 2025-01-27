@@ -7,3 +7,12 @@ let total = scores.reduce((acc, score) => acc + score, 0);
 let average = total / scores.length;
 console.log("Updated scores array:", scores);
 console.log("Average score:", average);
+let employee = {
+    name: "John Doe",
+    age: 30,
+    department: "Sales",
+    isActive: true
+};
+employee.department = "Marketing"; // Update department
+employee.position = "Manager"; // Add new property
+console.log(employee); // Log updated object
