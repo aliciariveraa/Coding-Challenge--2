@@ -8,8 +8,8 @@ let average = total / scores.length;
 console.log("Updated scores array:", scores);
 console.log("Average score:", average);
 let employee = {
-    name: "John Doe",
-    age: 30,
+    name: "Mary John",
+    age: 40,
     department: "Sales",
     isActive: true
 };
